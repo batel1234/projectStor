@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body onload="createCategories()">
+    <h1 style="text-align:center;font-size:900%; color:red;">style</h1>
+    <div id="sal"></div>
+    <div style="display:none;color:white;margin-left:30%;" id="form" dir="rtl">
+        <form action="htmlpage1.html">
+            <p style="font-size:200%;text-align:center;">
+                פרטים אישים:
+            </p>
+            <table style="width:30vw; margin-right:35vw;">
+                <tr>
+                    <td> שם פרטי:</td>
+                    <td>
+                        <input type="text" placeholder="שם פרטי " required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>שם משפחה:</td>
+                    <td><input type="text" placeholder=" שם משפחה " required /></td>
+                </tr>
+                <tr>
+                    <td>פלאפון:</td>
+                    <td><input type="text" placeholder=" פלאפון " required /></td>
+                </tr>
+                <tr>
+                    <td>תעודת זהות:</td>
+                    <td><input type="text" maxlength="9" placeholder="הכנס ת.ז" /></td>
+                </tr>
+                <tr>
+                    <td> ההזמנה לתאריך:</td>
+                    <td><input type="date" placeholder=" ההזמנה לתאריך  " required /></td>
+                </tr>
+                <tr>
+                    <td>אמייל:</td>
+                    <td><input type="email" placeholder=" אמייל " /></td>
+                </tr>
+                <tr><td>שם בעל הכרטיס:</td><td><input type="text" placeholder=" בעל הכרטיס " required /></td></tr>
+                <tr>
+                    <td>מספר כרטיס אשראי:</td>
+                    <td><input type="text" placeholder=" מספר כרטיס אשראי " required /></td>
+                </tr>
+                <tr><td>שם בעל הכרטיס:</td>
+                <td><input type="text" placeholder=" בעל הכרטיס " required /></td></tr>
+                <tr>
+                    <td>הסכום לתשלום:</td>
+                    <td style="border: ridge 2px white;color:black;width:9%;" > <label id="sum"></label> <br /></td>
+                </tr>
+                <tr>
+                    <td> תוקף הכרטיס:</td>
+                    <td> <input type="date" placeholder="הכנס תוקף" required="required" /></td>
+                </tr>
+                <tr>
+                    <td> 3 ספרות אחרונות:</td>
+                    <td><input type="tel" placeholder="הכנס 3 ספרות" required="required" /></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="submit" value="סיום הזמנה" /></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    <div id="main"></div>
+    <script src="JavaScript.js"></script>
+
+    <div id="big"></div>
+
+</body>
+</html>
